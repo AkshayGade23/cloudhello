@@ -1,0 +1,6 @@
+# app.yaml
+runtime: python312  # Change the Python version as needed
+
+handlers:
+- url: /.*
+  script: hello.py
